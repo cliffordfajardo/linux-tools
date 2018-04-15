@@ -5,6 +5,7 @@
 - [ ] `hexdump` - `ASCII, decimal, hexadecimal, octal dump`
     - [ ] all flags implemented
     - [ ] tests implemented
+- `logrotate` - `rotates, compresses, and mails system logs`  
 - [ ] `vmstat` - `Report virtual memory statistics`
     - [ ] all flags implemented
     - [ ] tests implemented
@@ -187,61 +188,61 @@
 - [ ] `printenv` - `print all or part of environment`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `printf`
+- [ ] `printf` - `format and print data`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `ptx`
+- [ ] `ptx` - `produce a permuted index of file contents`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `pwd`
+- [ ] `pwd` - `print name of current/working directory`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `readlink`
+- [ ] `readlink` - `print resolved symbolic links or canonical file names`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `realpath`
+- [ ] `realpath` - `print the resolved path`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `rm`
+- [ ] `rm` - `remove files or directories`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `rmdir`
+- [ ] `rmdir` - `remove empty directories`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `runcon`
+- [ ] `runcon` - `run command with specified security context`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `seq`
+- [ ] `seq` - `print a sequence of numbers`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `sha1sum`
+- [ ] `sha1sum` - `compute and check SHA1 message digest`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `sha224sum`
+- [ ] `sha224sum` - `compute and check SHA224 message digest`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `sha256sum`
+- [ ] `sha256sum` - `compute and check SHA256 message digest`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `sha384sum`
+- [ ] `sha384sum` - `compute and check SHA384 message digest`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `sha512sum`
+- [ ] `sha512sum` - `compute and check SHA512 message digest`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `shred`
+- [ ] `shred` - `overwrite a file to hide its contents, and optionally delete it`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `shuf`
+- [ ] `shuf` - `generate random permutations`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `sleep`
+- [ ] `sleep` - `delay for a specified amount of time`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `sort`
+- [ ] `sort` - `sort lines of text files`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `split`
+- [ ] `split` - `split a file into pieces`
     - [ ] all flags implemented
     - [ ] tests implemented
 - [ ] `stat`
@@ -268,37 +269,37 @@
 - [ ] `tee`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `test`
+- [ ] `test` - `check file types and compare values`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `timeout`
+- [ ] `timeout` - `run a command with a time limit`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `touch`
+- [ ] `touch` - `change file timestamps`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `tr`
+- [ ] `tr` - `translate or delete characters`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `true`
+- [ ] `true` - `do nothing, successfully`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `truncate`
+- [ ] `truncate` - `shrink or extend the size of a file to the specified size`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `tsort`
+- [ ] `tsort` - `perform topological sort`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `tty`
+- [ ] `tty` - `print the file name of the terminal connected to standard input`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `uname`
+- [ ] `uname` - `print system information`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `unexpand`
+- [ ] `unexpand` - `convert spaces to tabs`
     - [ ] all flags implemented
     - [ ] tests implemented
-- [ ] `uniq`
+- [ ] `uniq` - `report or omit repeated lines`
     - [ ] all flags implemented
     - [ ] tests implemented
 - [ ] `unlink` - `call the unlink function to remove the specified file`
