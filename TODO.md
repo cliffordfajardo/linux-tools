@@ -1,0 +1,328 @@
+## Other tools
+- [ ] `free` - `Display amount of free and used memory in the system`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `hexdump` - `ASCII, decimal, hexadecimal, octal dump`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `vmstat` - `Report virtual memory statistics`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+
+## GNU Coreutils Tools
+- [ ] `arch` - `print machine hardware name (same as uname -m)`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `b2sum` - `compute and check BLAKE2 message digest`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `base32` - `base32 encode/decode data and print to standard output`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `base64` - `base64 encode/decode data and print to standard output`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `basename` - `strip directory and suffix from filenames`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `cat` - `concatenate files and print on the standard output`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `chcon` - `change file security context`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `chgrp` - `change group ownership`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `chmod` - `change file mode bits`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `chown` - `change file owner and group`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `chroot` - `run command or interactive shell with special root directory`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `cksum` - `checksum and count the bytes in a file`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `comm` - `compare two sorted files line by line`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `cp` - `copy files and directories`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `csplit` - `split a file into sections determined by context lines`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `cut` - `remove sections from each line of files`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `date` - `print or set the system date and time`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `dd` - `convert and copy a file`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `df` - `report file system disk space usage`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `dir` - `list directory contents`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `dircolors` - `color setup for ls`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `dirname` - `strip last component from file name`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `du` - `estimate file space usage`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `echo` - `display a line of text`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `env` - `run a program in a modified environment`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `expand` - `convert tabs to spaces`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `expr` - `evaluate expressions`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `factor` - `factor numbers`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `false` - `do nothing, unsuccessfully`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `fmt` - `simple optimal text formatter`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `fold` - `wrap each input line to fit in specified width`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `groups` - `print the groups a user is in`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `head` - `output the first part of files`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `hostid` - `print the numeric identifier for the current host`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `hostname` - `show or set the system's host name`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `id` - `print real and effective user and group IDs`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `join` - `join lines of two files on a common field`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `kill` - `send a signal to a process`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `link` - `call the link function to create a link to a file`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `ln` - `make links between files`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `logname` - `print user´s login name`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `ls` - `list directory contents`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `md5sum` - `compute and check MD5 message digest`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `mkdir` - `make directories`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `mkfifo` - `make FIFOs (named pipes)`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `mknod` - `make block or character special files`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `mktemp` - `create a temporary file or directory`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `mv` - `move (rename) files`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `nice` - `run a program with modified scheduling priority`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `nl` - `number lines of files`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `nohup` - `run a command immune to hangups, with output to a non-tty`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `nproc` - `print the number of processing units available`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `numfmt` - `Convert numbers from/to human-readable strings`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `od` - `dump files in octal and other formats`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `paste` - `merge lines of files`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `pathchk` - `check whether file names are valid or portable`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `pinky` - `lightweight finger (user information lookup program)`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `pr` - `convert text files for printing`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `printenv` - `print all or part of environment`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `printf`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `ptx`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `pwd`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `readlink`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `realpath`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `rm`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `rmdir`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `runcon`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `seq`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sha1sum`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sha224sum`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sha256sum`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sha384sum`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sha512sum`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `shred`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `shuf`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sleep`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sort`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `split`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `stat`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `stdbuf`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `stty`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sum`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `sync`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `tac`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `tail`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `tee`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `test`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `timeout`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `touch`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `tr`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `true`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `truncate`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `tsort`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `tty`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `uname`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `unexpand`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `uniq`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `unlink` - `call the unlink function to remove the specified file`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `uptime` - `Tell how long the system has been running.`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `users` - `print the user names of users currently logged in to the current host`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `vdir` - `list directory contents`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `wc` - `print newline, word, and byte counts for each file`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `who` - `show who is logged on`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `whoami` - `print effective userid`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+- [ ] `yes` - `output a string repeatedly until killed`
+    - [ ] all flags implemented
+    - [ ] tests implemented
+
