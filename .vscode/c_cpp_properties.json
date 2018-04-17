@@ -39,7 +39,6 @@
                 "/usr/local/include",
                 "/usr/include/x86_64-linux-gnu",
                 "/usr/include/clang/4.0.1/include",
-                "${workspaceRoot}/ch-2/include",
                 "${workspaceRoot}/common/include"
             ],
             "defines": [],
@@ -48,7 +47,7 @@
                 "path": [
                     "/usr/include",
                     "/usr/local/include",
-                    "${workspaceRoot}"
+                    "${workspaceRoot}/common/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
