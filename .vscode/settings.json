@@ -5,7 +5,8 @@
   "C_Cpp.clang_format_path": "/usr/local/bin/clang-format",
   "files.associations": {
     "stdio.h": "c",
-    "errors.h": "c"
+    "errors.h": "c",
+    "errno.h": "c"
   },
   "files.insertFinalNewline": true,
   "editor.tabSize": 2
