@@ -7,8 +7,6 @@
 #include <unistd.h>
 #include "errors.h"
 
-#define MAX_FILES 1000
-
 // cat - concatenate files and print on the standard output
 
 int main(int argc, char** argv) {
@@ -19,8 +17,7 @@ int main(int argc, char** argv) {
 
   int filec = argc - 1;
   char** filev = &argv[1];
-  // TODO: Use dynamic memory here
-  int fds[MAX_FILES];
+  int* fds = (int*)malloc(sizeof(int*) * (size_t)filec);
 
   // Open each file, save fd
   int fd, i;
@@ -28,6 +25,7 @@ int main(int argc, char** argv) {
     fd = open(filev[i], O_RDONLY);
     if (fd == -1) {
       display_errors("Opening file", errno);
+      free(fds);
       return -1;
     }
     fds[i] = fd;
@@ -44,11 +42,13 @@ int main(int argc, char** argv) {
     file_size = lseek(current_file, 0, SEEK_END);
     if (file_size == -1) {
       display_errors("Getting file size", errno);
+      free(fds);
       return -1;
     }
     lseek(current_file, 0, 0);
     if (file_size == -1) {
       display_errors("Seeking to file start", errno);
+      free(fds);
       return -1;
     }
 
@@ -58,11 +58,13 @@ int main(int argc, char** argv) {
     if (rd_bytes == -1) {
       display_errors("Reading file contents", errno);
       free(file_contents);
+      free(fds);
       return -1;
     }
     printf("%s", file_contents);
     free(file_contents);
   }
 
+  free(fds);
   return 0;
 }
