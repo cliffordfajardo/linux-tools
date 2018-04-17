@@ -10,7 +10,6 @@
 `base32` - `base32 encode/decode data and print to standard output`
 `base64` - `base64 encode/decode data and print to standard output`
 `basename` - `strip directory and suffix from filenames`
-`cat` - `concatenate files and print on the standard output`
 `chcon` - `change file security context`
 `chgrp` - `change group ownership`
 `chmod` - `change file mode bits`
@@ -28,7 +27,6 @@
 `dircolors` - `color setup for ls`
 `dirname` - `strip last component from file name`
 `du` - `estimate file space usage`
-`echo` - `display a line of text`
 `env` - `run a program in a modified environment`
 `expand` - `convert tabs to spaces`
 `expr` - `evaluate expressions`

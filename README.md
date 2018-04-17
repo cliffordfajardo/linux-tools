@@ -6,3 +6,10 @@ Just `make` any file you see here, or `make all`.
 
 ## The programs
 All programs I haven't implemented yet are listed in `TODO.md`. Currently implemented are:
+
+ - [X] `cat` - `concatenate files and print on the standard output`
+  - [ ] all flags implemented
+  - [ ] tests implemented
+ - [X] `echo` - `display a line of text`
+  - [ ] all flags implemented
+  - [ ] tests implemented  
