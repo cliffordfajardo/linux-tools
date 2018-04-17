@@ -13,7 +13,7 @@ setup:
 cat:
 	echo "testfile one" > testfile1.txt
 	echo "testfile two" > testfile2.txt
-	$(CC) $(CFLAGS) -I $@/include/ -I $(COMMON_INC) $@/src/*.c $(COMMON_SRC) -o bin/$@
+	$(CC) $(CFLAGS) -I include/$@/ -I $(COMMON_INC) $@/src/*.c $(COMMON_SRC) -o bin/$@
 	bin/$@ testfile1.txt testfile2.txt
 	rm testfile*
 
