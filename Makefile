@@ -1,26 +1,49 @@
+### General vars
 SHELL:=/bin/bash
-CC:= clang
-CFLAGS:= -std=c11 -g -Weverything -Werror -lm
-COMMON_INC:= common/include
-COMMON_SRC:= common/src/errors.c
+BIN_DIR:=`pwd`/bin
+CONTAINER_NAME:=linux_tools
+
+### Uncomment this to run Clang's static analyzer while building; this makes the build slower.
+ANALYZER:=scan-build --status-bugs
+
+### Compiler settings
+CC:=clang
+CFLAGS :=-std=gnu11 -g -lm
+WARNINGS :=-Weverything -Werror
+INCLUDES :=-I common/include
+LIBS := common/src/*.c
+EXTRA_FLAGS:=-D TEST_OUTPUT
+COMPILE:=$(ANALYZER) $(CC) $(CFLAGS) $(WARNINGS) $(EXTRA_FLAGS) $(INCLUDES) $(LIBS)
+
+### Valgrind target for memory analysis
+VALGRIND := valgrind -q --leak-check=full --show-leak-kinds=all --track-origins=yes --error-exitcode=42
 
 clean:
-	-rm bin/*
+	-rm $(BIN_DIR)/*
 
 setup:
-	mkdir bin
+	mkdir $(BIN_DIR)
 
-cat:
-	echo "testfile one" > testfile1.txt
-	echo "testfile two" > testfile2.txt
-	$(CC) $(CFLAGS) -I include/$@/ -I $(COMMON_INC) src/$@/main.c $(COMMON_SRC) -o bin/$@
-	bin/$@ testfile1.txt testfile2.txt
-	@echo "--------------"
-	cat testfile1.txt testfile2.txt
-	rm testfile*
+### Dockerized Linux workspace for consistent environment
+docker-clean:
+	-docker stop $(CONTAINER_NAME)
+	-docker rm $(CONTAINER_NAME)
 
-echo:
-	$(CC) $(CFLAGS) src/$@/*.c -o bin/$@
-	bin/$@ "Hello," "world!"
-	
+docker: docker-clean
+	docker pull ubuntu
+	docker run \
+	-dt \
+	--name $(CONTAINER_NAME) \
+	-v `pwd`:/$(CONTAINER_NAME) \
+	ubuntu
+	docker exec $(CONTAINER_NAME) apt-get update
+	docker exec $(CONTAINER_NAME) apt-get install -y make valgrind clang clang-tools cdecl perl
+
+shell:
+	docker exec -it $(CONTAINER_NAME) /bin/bash
+
+workspace: docker-clean docker shell
+
+
+
 
