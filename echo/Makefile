@@ -1,7 +1,7 @@
 include ../Makefile
 
-all echo:
-	$(CC) $(CFLAGS) src/$@/*.c -o $(BIN_DIR)/$@
-	bin/$@ "Hello," "world!"
+echo: clean setup
+	$(CC) $(CFLAGS) *.c -o $(BIN_DIR)/$@
+	$(BIN_DIR)/$@ "Hello," "world!"
 
 
